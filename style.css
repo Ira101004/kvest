@@ -1,0 +1,89 @@
+body, html {
+font-family: 'Times New Roman', serif;
+font-size: 12pt;
+color: #696969;
+margin:0px;
+padding:0px;
+text-align:center;
+}
+#container{
+margin:0 auto;
+text-align:left;
+min-width:550px;  
+width:expression
+(document.compatMode && document.compatMode == 'CSS1Compat')
+document.documentElement.clientWidth < 550
+"550px"
+:
+"auto"
+)
+:
+(
+document.body.clientWidth < 550
+"550px"
+:
+"auto"
+)
+);
+}
+#header{
+background-color:#5F9EA0;
+}
+#header h1 {
+	margin: 0;
+	padding: 10px 0;
+color:#FFFFFF
+}
+#left{
+background-color:#5F9EA0;
+width:120px;
+float:left;
+font-family: 'Times New Roman', serif;
+font-size: 12pt;
+font-color: #ffffff;
+}
+#content{
+background-color:#ffffff;
+margin:0px;
+margin-left:152px;
+}
+#content h1 {
+margin:0px;
+color:#5F9EA0;
+} 
+#content p {
+margin:0px;
+padding:5px;
+}
+#clear{
+height:10;
+font-size:1px;
+line-height:0px;
+clear:both;
+color: #ffffff;
+}
+#footer{
+background-color:#5F9EA0;
+color:#FFFFFF
+}
+#footer p{
+margin:0px;
+padding: 20px 0;
+background-color:#5F9EA0;
+}
+.menutitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.05em; PADDING-BOTTOM: 5px; COLOR: #FFFFFF ; PADDING-TOP: 3px;  LETTER-SPACING: 0.15em;TEXT-ALIGN: center; background-color:#808080; MARGIN: 0px; }
+
+#menu {
+	FLOAT: left;  PADDING-TOP: 0px; TEXT-ALIGN: left;}
+#menu A {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ffffff; TEXT-DECORATION: none;}
+#menu A:hover {
+	TEXT-DECORATION: underline;}
+#menu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 10px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left;}
+#menu LI {
+	BORDER-RIGHT: #FFFFFF 0px solid; PADDING-RIGHT: 20px; BORDER-TOP: #FFFFFF 0px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; MARGIN: 0px; BORDER-LEFT: #FFFFFF 0px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #FFFFFF 1px solid;}
+
+
+
